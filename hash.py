@@ -5,7 +5,7 @@ def insert(Ht,key,value):
     print(hpos)
     bucket=Ht[hpos]
     duplicate=False
-    for i,kv in enumerate(bucket):
+    for kv in enumerate(bucket):
         k,v=kv
        
         if(k==key):
