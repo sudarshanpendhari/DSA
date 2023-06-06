@@ -30,8 +30,8 @@ node *BST::createBST()
     cin>>x;
     node *temp;
     temp=new node;
-  // temp->left=NULL;
-  //  temp->right=NULL;
+    temp->left=NULL;
+    temp->right=NULL;
     temp->data=x;
     if(root==NULL)
     {
